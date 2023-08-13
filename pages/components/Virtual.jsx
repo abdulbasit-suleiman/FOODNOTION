@@ -1,3 +1,6 @@
+import Before from "../../public/asset/cripsy.JPEG"
+import After from "../../public/asset/cripsy.JPEG"
+
 import ReactCompareImage from 'react-compare-image';
 function Virtual() {
   return (
@@ -9,10 +12,7 @@ function Virtual() {
       </div>
       <div className="right-virtual">
         <div className="virtual-wrapper">
-            <ReactCompareImage
-              leftImage="../asset/chicken2.jpg"
-              rightImage="../asset/cripsy.jpg"
-            />
+          <img src="/asset/cripsy.jpg" width={400} height={300} alt="" className="virtual-img" />
         </div>
       </div>
     </div>
@@ -20,4 +20,3 @@ function Virtual() {
 }
 
 export default Virtual;
-// 1947

@@ -2,10 +2,11 @@
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Product from "./components/Product";
 import Slider from "./components/Slider";
-import Testmonials from "./components/Testmonials";
+import Product from "./components/Product";
 import Virtual from "./components/Virtual";
+import Testmonials from "./components/Testmonials";
+import Footer from "./components/Footer";
 
 function ViewPage() {
   return (
@@ -16,6 +17,7 @@ function ViewPage() {
       <Virtual />
       <Product />
       <Testmonials />
+      <Footer />
     </div>
   );
 }
