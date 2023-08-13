@@ -1,6 +1,3 @@
-import Before from "../../public/asset/cripsy.JPEG"
-import After from "../../public/asset/cripsy.JPEG"
-
 import ReactCompareImage from 'react-compare-image';
 function Virtual() {
   return (
