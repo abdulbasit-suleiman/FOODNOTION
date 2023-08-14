@@ -665,6 +665,10 @@ a {
     text-align: center;
   }
  
+  .virtual-img{
+    width: 240px;
+
+  }
 }
 @media screen and (max-width:   414px) {
   .testmonials-wrapper{
