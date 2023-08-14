@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { TestmonialsData } from "./TestmonialsData";
 import Image from "next/image";
+import { TestmonialsData } from "@/data/TestmonialsData";
 function Testmonials() {
   const openWhatsAppLink = () => {
     window.open("https://wa.me", "_blank");

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { SliderProduct } from "./SliderData";
 import Image from "next/image";
+import { SliderProduct } from "@/data/SliderData";
 function Product() {
   const [menuProduct, setMenuProduct] = useState(SliderProduct);
   const filter = (type) => {

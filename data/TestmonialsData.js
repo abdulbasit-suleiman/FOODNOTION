@@ -1,13 +1,13 @@
-import img1 from '../../public/uncooked-egg.jpg';
-import img2 from '../../public/asset/chicken2.jpg';
-import img3 from '../../public/asset/semo4.jpg';
-import img4 from '../../public/asset/chicken4.jpg';
+import img1 from '../public/uncooked-egg.jpg';
+import img2 from '../public/asset/chicken2.jpg';
+import img3 from '../public/asset/semo4.jpg';
+import img4 from '../public/asset/chicken4.jpg';
 import img5 from 'public/asset/chicken5.jpg'
 import img6 from 'public/asset/rodo.jpg'
 import img7 from 'public/asset/cripsy.jpg'
 import img8 from 'public/asset/turkey.jpg'
 import img9 from 'public/asset/beans2.jpg'
-export  const TestmonialsData=[{
+export const TestmonialsData =[{
         name:'Abdulbasit Suleiman',
         comments:'Move to a comfortable zone by visiting us now',
        img:img7

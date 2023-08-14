@@ -3,8 +3,8 @@ import { Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { SliderProduct } from "./SliderData";
 import Image from "next/image";
+import { SliderProduct } from "@/data/SliderData";
 function Slider() {
   return (
     <div className="slider-container" id="products">

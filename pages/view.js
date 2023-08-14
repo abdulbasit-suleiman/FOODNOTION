@@ -1,20 +1,21 @@
 "use client ";
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Slider from "./components/Slider";
-import Product from "./components/Product";
-import Virtual from "./components/Virtual";
-import Testmonials from "./components/Testmonials";
-import Footer from "./components/Footer";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Product from "@/components/Product";
+import Slider from "@/components/Slider";
+import Testmonials from "@/components/Testmonials";
+import Virtual from "@/components/Virtual";
+
 
 function ViewPage() {
   return (
     <div className="view">
-      <Header />
-      <Hero />
+      <Header/>
+      <Hero/>
       <Slider />
-      <Virtual />
+      <Virtual/>
       <Product />
       <Testmonials />
       <Footer />
