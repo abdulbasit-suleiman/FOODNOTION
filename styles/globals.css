@@ -670,6 +670,10 @@ a {
   .testmonials-wrapper{
     display: none;
   }
+  .virtual-img{
+    min-width: 300px;
+    max-width: 400px;
+  }
   .testmonial-name {
     font-size: 0.8rem;
   }
