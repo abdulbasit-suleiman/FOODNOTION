@@ -50,7 +50,7 @@ function Footer() {
             </span>
             <span className="pngLine">
               <span>
-                <Link href="https://wa.me/08102444444"></Link>{" "}
+                <Link href="https://wa.me/2348102444444"></Link>{" "}
                 <img
                   src="/asset/instagram.svg"
                   className="icons"
@@ -58,7 +58,7 @@ function Footer() {
                 />
               </span>
               <span>
-                <Link href="https://wa.me/08102444444">Whatsapp</Link>
+                <Link href="https://wa.me/2348102444444">Whatsapp</Link>
               </span>
             </span>
           </div>
@@ -70,7 +70,7 @@ function Footer() {
             <span className="pngLine">
               <span>::::::</span>
               <span>
-                <Link href="https://wa.me/08102444444">Support now</Link>
+                <Link href="https://wa.me/2348102444444">Support now</Link>
               </span>
             </span>
           </div>

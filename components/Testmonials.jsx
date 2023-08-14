@@ -3,7 +3,7 @@ import Image from "next/image";
 import { TestmonialsData } from "@/data/TestmonialsData";
 function Testmonials() {
   const openWhatsAppLink = () => {
-    window.open("https://wa.me", "_blank");
+    window.open("https://wa.me/2348102444444", "_blank");
   };
   return (
     <div className="testmonials"  id="testimonials">

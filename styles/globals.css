@@ -10,7 +10,7 @@ body {
   margin: 0;
   transition: all 3ms ease;
   background: var(--bg);
-  font-family: cursive;
+  font-family: sans-serif;
   color: var(--black);
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -664,6 +664,26 @@ a {
     align-items: center;
     text-align: center;
   }
+ 
+}
+@media screen and (max-width:   414px) {
+  .testmonials-wrapper{
+    display: none;
+  }
+  .testmonial-name {
+    font-size: 0.8rem;
+  }
+  .carousal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .review{
+  display: none;
+
+}
 }
 
 @media screen and (max-width: 856px) {
